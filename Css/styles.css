@@ -1,0 +1,108 @@
+
+*{ font-family: 'Open Sans', sans-serif;}
+.Home { display: flex;
+        background-image: url(../img/home.jpg);
+        height: 900px;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 1085px;
+        background-attachment: fixed;
+        border-image-width: auto;
+        justify-content: left;
+        flex-wrap: wrap;
+        flex-direction: column;
+}
+section article li {
+    color: gray;
+    list-style-type: none;
+    line-height: 2;
+}
+.iconos {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.Home .Emilia { 
+    font-family: 'Work Sans', sans-serif;
+    font-size: x-large;
+    text-align: left; 
+    background-color: none ;  
+}
+section article h1 {
+    background-color: rgba(255, 255, 255, 0.458);
+    width: 100%;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 20000;
+    text-align: left;
+    align-self: flex-end;
+}
+.About {
+    background-image: url(../img/about.jpg); 
+    height: 900px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 1090px;
+    background-attachment: fixed;
+    border-image-width: auto;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    text-align: left; 
+    background-color: none ;  
+}
+.About li {
+    color: gray;
+    list-style-type: none;
+    line-height: 2;
+    font-size: small;
+}
+.About h3 { 
+    color: rgb(70, 165, 133);
+    background-color: rgba(255, 255, 255, 0.458);
+}
+
+.Music li {color: gray;
+    list-style-type: none;
+    line-height: 2;
+    font-size: small;
+}
+.detallesm { 
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1;
+    background-color: none;
+    font-size: medium;
+
+}
+.Music {
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    text-align: left; 
+    background-color: none ;  
+ }
+ .parrafos {
+    font-size: medium;
+ }
+.tracks {
+     color: black;
+     font-size: medium;
+     font-weight: bold;
+}
+.Contact {
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    text-align: left; 
+    background-color: none ;  
+ }
+
+ .Contact h4 {  
+        color: rgb(70, 165, 133);
+        background-color: rgba(255, 255, 255, 0.458);
+ }
